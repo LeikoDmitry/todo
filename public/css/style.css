@@ -1,0 +1,80 @@
+body{
+    background: #eceff0;
+    padding: 0;
+    margin: 0;
+}
+body,input{
+    font: 1em "Lobster",sans-serif;
+    color: #363639;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #363639;
+}
+
+/*Список Дел*/
+.list{
+    background: #fff;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.list .header{
+   text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Сами списки*/
+.items{
+   list-style: none;
+}
+
+.items li{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    padding: 15px 0;
+}
+.items li .done-button:hover{
+    opacity:1;
+}
+
+.items .done{
+text-decoration: line-through;
+}
+.input{
+    margin-left: 40px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px dashed #363639;
+    width: 90%;
+}
+.input:focus{
+    outline: none;
+}
+
+/*done-button*/
+.done-button{
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: #d9dfe1;
+    color: #363639;
+    padding: 3px 8px;
+    border:0;
+    opacity: 0.4;
+}
+
+/*submit button*/
+.submit{
+    background: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 3px 3px 0 #ddd;
+}
