@@ -1,2 +1,2 @@
-# todo
-Простенький скрипт списка задач
+# ToDo
+Very simple todo list application
